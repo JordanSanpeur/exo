@@ -1,0 +1,51 @@
+
+body
+{
+display: grid;
+gap: 20px;
+grid-template-areas: 
+'header header'
+'UN  DEUX'
+'TROIS QUATRE'
+'footer footer';
+grid-auto-rows: 100px;
+
+}
+
+header
+{
+    text-align: center;
+    grid-area: header;
+    background-color: brown;
+}
+
+.un
+{
+    grid-area: UN;
+    background-color: red;
+}
+
+.deux
+{
+    grid-area: DEUX;
+    background-color: blue;
+}
+
+.trois
+{
+    grid-area: TROIS;
+    background-color: green;
+}
+
+.quatre
+{
+    grid-area: QUATRE;
+    background-color: yellow;
+}
+
+footer
+{
+    text-align: center;   
+    grid-area: footer;
+    background-color: brown;
+}
