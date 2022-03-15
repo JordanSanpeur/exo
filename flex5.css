@@ -1,0 +1,38 @@
+body *
+{
+    border: 1px solid;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul 
+{
+    display: flex;
+}
+
+li
+{
+    list-style-type: none;
+    padding: 10px;
+}
+
+article
+{
+    display: flex;
+    
+}
+
+.image, .image2
+{
+    width: 400px;
+    height: 400px;
+}
+
+.image2
+{
+    align-self: flex-end;
+}
