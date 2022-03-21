@@ -1,0 +1,49 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul 
+{
+
+    display: flex;
+}
+
+li{
+    display: flex;
+    padding: 5px;
+}
+
+.block1 
+{
+    display: flex;
+    margin: 15px 
+    30%;
+    align-items: center;
+}
+
+.block1 p
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.block2
+{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+    align-items: flex-start;
+}

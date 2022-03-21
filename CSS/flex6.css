@@ -1,0 +1,78 @@
+
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+li
+{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.photo 
+{
+    width: 600px;
+    height: 600px;
+}
+
+main
+{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.image, .pdp
+{
+    
+     width: 200px;
+     height: 200px;
+    
+}
+
+.article
+{
+    width: 990px;
+    height: 500px;
+}
+
+.partie1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.partie2
+{
+    display: flex;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.partie3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+

@@ -1,0 +1,69 @@
+main *
+{
+    border: 1px solid;
+}
+
+main
+{
+    display: grid;
+    grid-template-areas: 
+    'HEADER HEADER HEADER HEADER'
+    'UN UN UN DEUX'
+    'TROIS TROIS QUATRE QUATRE'
+    'CINQ SIX SIX SIX'
+    'FOOTER FOOTER FOOTER FOOTER';
+    grid-auto-rows: 100px;
+    gap: 20px;
+}
+
+header
+{
+    text-align: center;
+    grid-area: HEADER;
+    background-color: rgb(129, 3, 3);
+}
+
+.un
+{
+    grid-area: UN;
+    background-color: rgb(129, 3, 3);
+}
+
+.deux
+{
+    grid-area: DEUX;
+    background-color: rgb(129, 3, 3);
+}
+
+
+.trois
+{
+    grid-area: TROIS;
+    background-color: rgb(129, 3, 3);
+}
+
+.quatre
+{
+    grid-area: QUATRE;
+    background-color: rgb(129, 3, 3);
+}
+
+.cinq
+{
+    grid-area: CINQ;
+    background-color: rgb(129, 3, 3);
+}
+
+.six
+{
+    grid-area: SIX;
+    background-color: rgb(129, 3, 3);
+}
+
+footer
+{
+    grid-area: FOOTER;
+    text-align: center;
+    background-color: rgb(129, 3, 3);
+}
+
